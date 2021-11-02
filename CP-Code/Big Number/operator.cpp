@@ -31,20 +31,11 @@ const double eps = 1e-6;
 const double pi = 1.00 * acos(-1.00);
 
 int op(string a,string b) {
-	if (a.size() > b.size()) {
-		while(a.size() != b.size()) {
-			b = "0" + b;
-		}
-	} else if (a.size() < b.size()) {
-		while(a.size() != b.size()) {
-			a = "0" + a;
-		}
-	}
-	for (int i = 0;i<a.size();i++) {
-		if (a[i] < b[i]) return -1;
-		else if (a[i] > b[i]) return 1;
-	}
-	return 0;
+	while (a.length() < b.length()) a = "0" + a;
+	while (b.length() > b.length()) b = "0" + b;
+	if (a > b) return 1;
+	else if (a == b) return 0;
+	else return -1;
 }
 
 int main() {
