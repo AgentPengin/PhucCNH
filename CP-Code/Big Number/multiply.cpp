@@ -47,9 +47,18 @@ string sum(string a,string b) {
 }
 
 string multi(string a,int k) {
-	string res = "0";
-	for (int i = 0;i<k;i++) res = sum(res,a);
-	return res;
+	string c = "";
+	int mem = 0,s;
+	for (int i = a.size() - 1;i>=0;i--) {
+		s = (a[i] - 48) * k + mem;
+		mem = s/10;
+		c = char(s%10 + 48) + c;
+	}
+	string tmp;
+	if (mem > 0) tmp = to_string(mem);
+	else tmp = "";
+	c = tmp + c;
+	return c;
 }
 string multiBig(string a,string b) {
 	string s = "",tmp;
