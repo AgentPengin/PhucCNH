@@ -3,6 +3,7 @@
 - 🌱 I’m currently learning code
 - 💞️ I’m looking to collaborate on code
 - 📫 How to reach me QPhucCNH@gmail.com
+- HAOI - VOI - IOI -> HUST
 
 <!---
 PhucCNH/PhucCNH is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
