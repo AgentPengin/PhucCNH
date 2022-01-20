@@ -1,9 +1,12 @@
 - 👋 Hi, I’m @PhucCNH
-- 👀 I’m interested in code
+- 👀 I’m interested in coding, competitve programing
 - 🌱 I’m currently learning code
-- 💞️ I’m looking to collaborate on code
+- 💞️ I’m looking to collaborate on coding.
 - 📫 How to reach me QPhucCNH@gmail.com
-- HAOI - VOI - IOI -> HUST
+- Connect with me : https://www.facebook.com/quangphuc.bui.3958/
+- VNOJ : https://oj.vnoi.info/user/PhucCNH
+- Codeforces : https://codeforces.com/profile/PhuctinCNH
+- HAOI - DHBB -VOI -APIO- IOI 
 
 <!---
 PhucCNH/PhucCNH is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
