@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @PhucCNH
+- 👋 Hi, I’m @PhucCNH - K74 CNH
 - 👀 I’m interested in coding, competitve programing
 - 🌱 I’m currently learning code
 - 💞️ I’m looking to collaborate on coding.
