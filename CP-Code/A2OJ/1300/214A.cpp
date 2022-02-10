@@ -17,10 +17,10 @@ using namespace std;
 signed main() {
 	fastio
 	int n,m;
-	int res = 0;
+	int res = 0;	
 	cin >> n >> m;
-	for (int i = 1;i<=32;i++) {
-		for (int j = 1;j<=32;j++) {
+	for (int i = 0;i<=32;i++) {
+		for (int j = 0;j<=32;j++) {
 			if (i*i+j == n && i + j*j == m) res++;
 		}
 	}
