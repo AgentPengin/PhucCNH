@@ -100,7 +100,7 @@ signed main() {
 					if (f[mask&~(1 << i)][j] == inf) continue;
 					f[mask][i] = min(f[mask][i],f[mask&~(1 << i)][j] + dist[j][i]);
 				}				
-				if (mask == (1 << p) - 1) res = min(res,f[mask][i]);
+				if (__builtin_popcount(mask) == p) res = min(res,f[mask][i]);
 			}
 		}
 		if (p == 1) cout << 0 << EL
