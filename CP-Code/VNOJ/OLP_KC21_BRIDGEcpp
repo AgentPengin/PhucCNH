@@ -1,0 +1,51 @@
+#include<bits/stdc++.h>
+
+#define fastio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie();
+#define fi first
+#define se second
+#define ll long long
+#define EL "\n";
+#define time cerr << "\nTime elapsed: " << 1.0 * clock() / CLOCKS_PER_SEC << " s.\n "
+#define db(x) do { std::cerr << #x << ": " << x << EL;} while (0)
+
+const int mod = 1e9 + 7;
+const double eps = 1e-6;
+const double pi = 1.00 * acos(-1.00);
+const int NMAX = 1e6 + 10;
+
+using namespace std;
+
+string a,b;
+
+signed main() {
+	fastio
+	int test;
+	cin >> test;
+	while(test--) {
+		cin >> a >> b;
+		vector<int> f1(a.size()+5,0);
+		vector<int> f2(b.size()+5,0);
+		if (a[0] == 'X') f1[0] = 1LL;
+		else f1[0] = 0LL;
+		if (b[0] == 'X') f2[0] = 1LL;
+		else f2[0] = 0LL;
+		for (int i = 1;i<a.size();i++) {
+			f1[i] = 0LL;
+			if (a[i] == 'O') f1[i] = 0LL;
+			else {
+				f1[i] = (f2[i-1] + f1[i-1]) % mod;
+			}
+			f2[i] = 0LL;
+			if (b[i] == 'O') f2[i] = 0LL;
+			else {
+				f2[i] = (f1[i-1] + f2[i-1]) % mod;
+			}
+	 
+		}	
+		cout << (f1[a.size() - 1] + f2[b.size() - 1]) % mod << EL;
+		
+	}
+
+	return 0;
+}
+// Code cua Phuc ༼ つ ◕_◕ ༽つ
