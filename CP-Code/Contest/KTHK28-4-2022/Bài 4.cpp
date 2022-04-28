@@ -7,6 +7,7 @@
 #define EL "\n"
 #define time cerr << "\nTime elapsed: " << 1.0 * clock() / CLOCKS_PER_SEC << " s.\n "
 #define db(val) "["#val" = "<<(val)<<"] "
+#define int long long
 
 const int inf = 1e9 + 7;
 const double eps = 1e-6;
