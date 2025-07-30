@@ -1,6 +1,20 @@
 {
-  "name": "Skibidi Coin",
-  "symbol": "SKBDC",
-  "description": "The official coin for who want to skibidi",
-  "image": "https://i.ibb.co/NgQTVzCH/jerrytamgiac.png"
+  "name": "Skibidi NFT #1",
+  "symbol": "SKIBNFT",
+  "description": "First Skibidi NFT from Bootcamp 2024",
+  "image": "https://i.ibb.co/NgQTVzCH/jerrytamgiac.png",
+  "attributes": [
+    { "trait_type": "Color", "value": "Blue" },
+    { "trait_type": "Power", "value": "9000+" }
+  ],
+  "properties": {
+    "files": [
+      { "uri": "https://i.ibb.co/NgQTVzCH/jerrytamgiac.png", "type": "image/png" }
+    ],
+    "category": "image"
+  },
+  "seller_fee_basis_points": 1000,
+  "creators": [
+    { "address": "YOUR_WALLET_ADDRESS", "share": 100 }
+  ]
 }
